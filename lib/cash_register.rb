@@ -16,7 +16,7 @@ class CashRegister
       @items << item 
       counter +=1 
     else
-    @items << item
+      @items << item
   end
   
   def apply_discount
