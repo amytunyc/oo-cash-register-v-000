@@ -15,6 +15,7 @@ class CashRegister
     if discount = 0
       puts "There is no discount to apply."
     else
+      new_total = 
       puts "After the discount, the total comes to $#{}."
       
     
