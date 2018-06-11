@@ -14,6 +14,8 @@ class CashRegister
       counter = 0 
       whilte counter < quantity 
       @items << item 
+      counter +=1 
+      
     @items << item
   end
   
